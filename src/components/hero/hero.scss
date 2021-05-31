@@ -1,0 +1,37 @@
+.hero {
+  padding-bottom: 110px;
+  position: relative;
+  background-image: url("../../images/spot-1.png");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: contain;
+
+  &-text {
+    max-width: 1050px;
+    font-size: 37px;
+    margin: 60px auto;
+  }
+
+}
+
+.main-offer {
+  text-align: center;
+
+  &-pictures {
+    margin: 60px auto 100px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1360px;
+  }
+
+  &-picture {
+    cursor: pointer;
+  }
+
+  &-banner {
+    width: 100%;
+    max-width: 700px;
+    max-height: 310px;
+    margin-bottom: 70px;
+  }
+}

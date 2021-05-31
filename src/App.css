@@ -1,5 +1,16 @@
+@font-face {
+  font-family: 'Afternoon';
+  src: local('Afternoon'), url(./fonts/Afternoon.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Afternoon';
+  src: local('Afternoon'), url(./fonts/Afternoon.otf) format('opentype');
+}
+
 .App {
   text-align: center;
+  background: url("./images/main-bg.png") center center/ cover no-repeat, #ddd8d3;
 }
 
 .App-logo {
